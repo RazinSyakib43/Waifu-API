@@ -20,4 +20,11 @@ router.get("/", (req, res) => {
   res.send(waifus);
 });
 
+router.post("/", (req, res) => {
+  const waifu = req.body;
+  waifus.push(waifu);
+
+  res.send(`Your waifu, ${waifu.name}, has been added to the list!`);
+});
+
 export default router;
