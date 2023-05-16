@@ -1,5 +1,5 @@
 import express from "express";
-import bodyParser from "bodyParser";
+import bodyParser from "body-parser";
 
 const app = express();
 const PORT = 5000;
