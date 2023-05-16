@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Waifu-API is a REST API that provides comprehensive information about various kawaii, cute, and adorable waifu characters. This API allows users to access data such as character names, anime origin, images, age, height, weight, and other interesting details. By utilizing waifu-API, you can easily integrate waifu data into your applications or projects, whether it's for game development, websites, or mobile applications.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RazinSyakib43/Waifu-API/issues"
   },
-  "homepage": "https://github.com/RazinSyakib43/Waifu-API#readme"
+  "homepage": "https://github.com/RazinSyakib43/Waifu-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
