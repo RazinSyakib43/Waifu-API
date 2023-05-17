@@ -1,18 +1,28 @@
 import express from "express";
 import { v4 as uuidv4 } from 'uuid';
+import * as fs from 'fs';
+
 const router = express.Router();
 
 let waifus = [];
 
+// Read data from waifus.json file
+const readFileData = () => {
+  const data = fs.readFileSync('./waifu.json', 'utf8');
+  waifus = JSON.parse(data);
+};
+
+// Load initial data from waifus.json on server startup
+readFileData();
+
 router.get("/", (req, res) => {
-  console.log(waifus);
   res.send(waifus);
 });
 
 router.post("/", (req, res) => {
   const waifu = req.body;
 
-  const waifuWithId = { ...waifu, id:uuidv4()};
+  const waifuWithId = { id:uuidv4(), ...waifu};
 
   waifus.push(waifuWithId);
 
