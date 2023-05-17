@@ -35,4 +35,17 @@ router.delete('/:id', (req, res) => {
   res.send(`Waifu with the id ${id} knocked out from the list.`)
 });
 
+router.patch('/:id', (req, res) => {
+  const { id } = req.params;
+  const { name, anime, age } = req.body;
+
+  const waifu = waifus.find((waifu) => waifu.id === id);
+
+  if(name) waifu.name = name;
+  if(anime) waifu.anime = anime;
+  if(age) waifu.age = age;
+
+  res.send(`Waifu with the id ${id} has been updated`)
+});
+
 export default router;
