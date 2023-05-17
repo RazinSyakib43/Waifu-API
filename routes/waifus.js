@@ -2,7 +2,7 @@ import express from "express";
 import { v4 as uuidv4 } from 'uuid';
 const router = express.Router();
 
-const waifus = [];
+let waifus = [];
 
 router.get("/", (req, res) => {
   console.log(waifus);
@@ -25,6 +25,14 @@ router.get('/:id', (req, res) => {
   const foundWaifu = waifus.find((waifu) => waifu.id === id);
 
   res.send(foundWaifu);
+});
+
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+
+  waifus = waifus.filter((waifu) => waifu.id !== id);
+
+  res.send(`Waifu with the id ${id} knocked out from the list.`)
 });
 
 export default router;
