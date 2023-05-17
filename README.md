@@ -13,7 +13,7 @@ URL Route: `http://localhost:5000/waifus`
 # Endpoint Routes
 
 - ### **[GET]** Retrieve all waifus
-Send a GET request to /waifus to retrieve all waifus.
+Send a GET request to `/waifus` to retrieve all waifus.
 
 Request:
 ```
@@ -30,9 +30,16 @@ Response:
     ....
   }
 ```
+- ### **[GET]** Retrieve a specific waifu by ID
+To retrieve a specific waifu, send a GET request to `/waifus/:id`, replacing `:id` with the ID of the waifu you want to retrieve.
+
+Request:
+```
+  **GET** /waifus/36e565e6-68da-4384-be27-b255a93d5e1d
+```
 
 - ### **[POST]** Add a new waifu
-To add a new waifu, send a POST request to /waifus with the waifu details in the request body. Specify the name, anime, and age of the waifu.
+To add a new waifu, send a POST request to `/waifus` with the waifu details in the request body. Specify the `name`, `anime`, and `age` of the waifu.
 
 Request:
 ```
@@ -40,8 +47,31 @@ Request:
   Content-Type: application/json
   
   {
-  "name": "New Waifu",
-  "anime": "New Anime",
-  "age": 18
-}
+    "name": "New Waifu",
+    "anime": "New Anime",
+    "age": 18
+  }
+```
+
+- ### **[PATCH]** Update a waifu by ID
+To update a waifu, send a PATCH request to `/waifus/:id`, replacing `:id` with the ID of the waifu you want to update. Provide the updated details in the request body, such as the `name`, `anime`, or `age` of the waifu.
+
+Request:
+```
+  PATCH /waifus/1de986d0-1c03-4de3-92b5-b6b4b387b414
+  Content-Type: application/json
+
+  {
+    "name": "Updated Waifu",
+    "anime": "Updated Anime",
+    "age": 20
+  }
+```
+
+- ### **[DELETE]** Delete a waifu by ID
+To delete a waifu, send a DELETE request to `/waifus/:id`, replacing `:id` with the ID of the waifu you want to delete.
+
+Request:
+```
+  **DELETE** /waifus/57ddbdf5-0963-4963-b120-7541807cea9a
 ```
