@@ -1,10 +1,166 @@
-{
-    "name": "Mitsuha Miyamizu",
-    "anime": "Kimi no Nawa",
-    "age": 17,
-},
-{
-    "name": "Kato Megumi",
-    "anime": "Saenai Heroine no Sodatekata",
-    "age": 17,
-}
+[
+    {
+        "id": "59e1cd02-a422-4269-a7e5-a7cfdde41f85",
+        "name": "Mitsuha Miyamizu",
+        "anime": "Kimi no Nawa",
+        "age": 17,
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Mitsuha_Miyamizu.jpg/1200px-Mitsuha_Miyamizu.jpg",
+        "birthday": "March 24",
+        "height": 168 ,
+        "weight": 50 ,
+        "blood_type": "A",
+        "likes": ["nature", "Taki Tachibana", "Zeen", "comet"],
+        "dislikes": ["crowds", "insects"],
+        "description": "Mitsuha Miyamizu is a high school student who lives in a small town in Japan. She is bored with her life and wishes to live in a big city. One day, she wakes up in the body of a boy named Taki Tachibana. Taki is a high school student who lives in Tokyo. He is confused and scared by his new body, but he soon learns that he can switch bodies with Mitsuha. The two of them begin to communicate through notes and text messages, and they eventually fall in love. However, their love is forbidden, as they are from different worlds. In the end, they must find a way to be together, even if it means breaking the rules."
+    },
+    {
+        "id": "1114e3b5-6a4c-4f99-bf87-168cf472bd29",
+        "name": "Kato Megumi",
+        "anime": "Saenai Heroine no Sodatekata",
+        "age": 17,
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Kato_Megumi.jpg/1200px-Kato_Megumi.jpg",
+        "birthday": "March 8",
+        "height": 160 ,
+        "weight": 48 ,
+        "blood_type": "O",
+        "likes": ["reading", "writing", "music"],
+        "dislikes": ["sports", "bugs"],
+        "description": "Kato Megumi is a high school student who is a member of the Light Novel Club. She is a shy and quiet girl, but she is also very intelligent and talented. She is the main love interest of the protagonist, Tomoya Aki, and she eventually falls in love with him. Megumi is a very supportive and caring person, and she is always there for Tomoya when he needs her. She is also a very talented writer, and she helps Tomoya to improve his writing skills. Megumi is a valuable member of the Light Novel Club, and she is a great friend to Tomoya."
+    },
+    {
+        "id": "9d173897-d3f2-4a5a-ae78-56696db2c8bc",
+        "name": "Emilia",
+        "anime": "Re:Zero − Starting Life in Another World",
+        "age": 114,
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Re_Zero_Starting_Life_in_Another_World_-_Emilia_%28official_art%29.jpg/1200px-Re_Zero_Starting_Life_in_Another_World_-_Emilia_%28official_art%29.jpg",
+        "birthday": "February 7",
+        "height": 157,
+        "weight": 47,
+        "blood_type": "A",
+        "likes": ["reading", "nature", "animals"],
+        "dislikes": ["violence", "darkness"],
+        "description": "Emilia is a half-elf and the adopted daughter of Lord Roswaal L Mathers. She is the candidate for the throne of Lugunica and is one of the main characters in the series. Emilia is a kind and gentle person, and she is always willing to help"
+    },
+    {
+        "id": "5076ffcb-e330-4afc-889b-eee94b9fa00e",
+        "name": "Hoshino Ai",
+        "anime": "Oshi no Ko",
+        "age": 20,
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Hoshino_Ai_%28Oshi_no_Ko%29.jpg/1200px-Hoshino_Ai_%28Oshi_no_Ko%29.jpg",
+        "birthday": "August 1",
+        "height": 165,
+        "weight": 52,
+        "blood_type": "AB",
+        "likes": ["idols", "music", "singing"],
+        "dislikes": ["haters", "bullies"],
+        "description": "Hoshino Ai is a young woman who dreams of becoming an idol. She is a talented singer and dancer, and she is very passionate about her music. Ai is also a kind and caring person, and she is always willing to help others. She is a valuable member of the idol group Nijigasaki High School Idol Club, and she is a great friend to her fellow members."
+    },
+    {
+        "id": "57ddbdf5-0963-4963-b120-7541807cea9a",
+        "name": "Arima Kana",
+        "anime": "Oshi no Ko",
+        "age": 17
+    },
+    {
+        "id": "1de986d0-1c03-4de3-92b5-b6b4b387b414",
+        "name": "Megumin",
+        "anime": "Konosuba",
+        "age": 15
+    },
+    {
+        "id": "3cc72801-46c6-4e79-a954-c78b86b8c989",
+        "name": "Takanashi Rikka",
+        "anime": "Chuunibyou demo Koi ga Shitai!",
+        "age": 17
+    },
+    {
+        "id": "36e565e6-68da-4384-be27-b255a93d5e1d",
+        "name": "Inoue Takina",
+        "anime": "Lycoris Recoil",
+        "age": 17
+    },
+    {
+        "id": "8311a7fd-b40a-40f0-ac2f-2d3aed4c6022",
+        "name": "Yuzaki Tsukasaa",
+        "anime": "Tonikaku Kawaii",
+        "age": 16
+    },
+    {
+        "id": "e8eb8c54-583e-4b4f-8fb7-ff1088820dec",
+        "name": "Anya Forger",
+        "anime": "Spy x Family",
+        "age": 5
+    },
+    {
+        "id": "f6702a18-4e37-42b0-84f8-b1fef928cb39",
+        "name": "Kaguya Shinomiya",
+        "anime": "Kaguya-sama: Love is War",
+        "age": 17
+    },
+    {
+        "id": "0bd18925-9f63-4423-a71a-e901ed7be31b",
+        "name": "Ai Hayasaka",
+        "anime": "Kaguya-sama: Love is War",
+        "age": 17
+    },
+    {
+        "id": "17fdfbbb-6134-47df-b4dd-b495db6db9e5",
+        "name": "Kei Shirogane",
+        "anime": "Kaguya-sama: Love is War",
+        "age": 17
+    },
+    {
+        "id": "2b318775-640a-451e-98e6-ab59118f05b2",
+        "name": "Kafuu, Chino",
+        "anime": "Gochuumon wa Usagi desu ka??",
+        "age": 13
+    },
+    {
+        "id": "e92eff95-5d18-4945-b1e6-3a50b11d5ed4",
+        "name": "Yotsuba Nakano",
+        "anime": "5-toubun no Hanayome",
+        "age": 17
+    },
+    {
+        "id": "4869d8e3-f332-4056-8cec-131b4367f92e",
+        "name": "Miku Nakano",
+        "anime": "5-toubun no Hanayome",
+        "age": 17
+    },
+    {
+        "id": "90287d6c-da03-46b5-8721-b45d2c9ef40b",
+        "name": "Itsuki Nakano",
+        "anime": "5-toubun no Hanayome",
+        "age": 17
+    },
+    {
+        "id": "d0a99f68-f896-460b-a77a-cdb1938e6317",
+        "name": "Mirai Kuriyama",
+        "anime": "Kyoukai no Kanata",
+        "age": 16
+    },
+    {
+        "id": "a03a0357-526a-4217-bfab-51a6bd161a24",
+        "name": "Kaori Miyazono",
+        "anime": "Shigatsu wa Kimi no Uso",
+        "age": 14
+    },
+    {
+        "id": "f4ea5286-c773-47c4-95b2-b22fab1984ff",
+        "name": "Iroha Isshiki",
+        "anime": "Oregairu",
+        "age": 16
+    },
+    {
+        "id": "03bd407a-62b2-43f0-a8d9-118d45d27415",
+        "name": "Yukino Yukinoshita",
+        "anime": "Oregairu",
+        "age": 17
+    },
+    {
+        "id": "07a184df-7d7e-42da-85b3-c69a276c4dd7",
+        "name": "Saika Totsuka",
+        "anime": "Oregairu",
+        "age": 17
+    }
+]
