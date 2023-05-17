@@ -6,10 +6,16 @@ const router = express.Router();
 
 let waifus = [];
 
-// Read data from waifus.json file
+// Read data from waifu.json file
 const readFileData = () => {
   const data = fs.readFileSync('./waifu.json', 'utf8');
   waifus = JSON.parse(data);
+};
+
+// Write data to waifu.json file
+const writeFileData = () => {
+  const data = JSON.stringify(waifus, null, 2);
+  fs.writeFileSync('./waifu.json', data, 'utf8');
 };
 
 // Load initial data from waifus.json on server startup
@@ -25,6 +31,9 @@ router.post("/", (req, res) => {
   const waifuWithId = { id:uuidv4(), ...waifu};
 
   waifus.push(waifuWithId);
+
+  // Save updated data to waifu.json
+  writeFileData();
 
   res.send(`Your waifu, ${waifu.name}, has been added to the list!`);
 });
@@ -42,6 +51,10 @@ router.delete('/:id', (req, res) => {
 
   waifus = waifus.filter((waifu) => waifu.id !== id);
 
+  // Save updated data to waifu.json
+  writeFileData();
+
+
   res.send(`Waifu with the id ${id} knocked out from the list.`)
 });
 
@@ -54,6 +67,9 @@ router.patch('/:id', (req, res) => {
   if(name) waifu.name = name;
   if(anime) waifu.anime = anime;
   if(age) waifu.age = age;
+
+  // Save updated data to waifu.json
+  writeFileData();
 
   res.send(`Waifu with the id ${id} has been updated`)
 });
