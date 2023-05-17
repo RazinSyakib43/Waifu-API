@@ -5,7 +5,7 @@ Waifu-API is a REST API that provides comprehensive information about various ka
 # How To Use
 The Waifu API allows you to manage a collection of waifus. You can perform operations like retrieving all waifus, adding a new waifu, updating a waifu, and deleting a waifu. Follow the instructions below to use the API effectively.
 
-- Local Host: Run with Postman, local IP and Port:5000 `http://127.0.0.1:5000/` or `http://localhost:5000/`
+- Local Host: Run with Postman, local IP and Port:5000 `http://127.0.0.1:5000/waifus` or `http://localhost:5000/waifus`
 - Online Domain : not deployed yet
 
 # Endpoint Routes
